@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // Create a new component.  this component should produce
 // some HTML
-const App = function() {
+const App = () => {
   //JSX is html like code that you can use in javascript
   // webpack and babel convert the JSX into real javascript
   // it also converts it into html and puts it into the dom
