@@ -12,7 +12,7 @@ const App = () => {
   // it also converts it into html and puts it into the dom
   return (
     <div>
-      Hi!
+      
       <SearchBar />
     </div>
   );
