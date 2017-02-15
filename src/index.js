@@ -31,7 +31,7 @@ videoSearch(term) {
   render() {
     return (
       <div>
-        <SearchBar />
+        <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
           onVideoSelect={selectedVideo => this.setState({selectedVideo})}
@@ -39,6 +39,7 @@ videoSearch(term) {
       </div>
     );
   }
+  
 
 }
 
