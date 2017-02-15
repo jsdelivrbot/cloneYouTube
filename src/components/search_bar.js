@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <input
           // the following line turns this into a controlled component
           value={this.state.term}
